@@ -69,7 +69,7 @@ const Movies = (props) => {
     }, [dispatch, filters]);
 
     useEffect(() => {
-        updateFilters({...INITIAL_FILTERS, category, genre: null});
+        updateFilters({...INITIAL_FILTERS, category, genre: null, searchKey: ''});
     }, [category]);
 
     const updateFilters = (newFilters) => {
@@ -148,7 +148,6 @@ const Movies = (props) => {
 
     return (
         <Container className="movies-container">
-            <h1>{category}</h1>
             <FilterPanel filters={filters} updateFilters={updateFilters} />
             {getFilteredMovies()}
         </Container>

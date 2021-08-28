@@ -1,0 +1,7 @@
+{
+    "getMovies": "https://api.themoviedb.org/3/discover/{category}",
+    "searchMovies": "https://api.themoviedb.org/3/search/movie",
+    "getMovieDetails": "https://api.themoviedb.org/3/movie/{movieId}",
+    "getMovieCredits": "https://api.themoviedb.org/3/movie/{movieId}/credits"
+    
+}

@@ -1,0 +1,62 @@
+/* Class for carousel card image */
+.ioRpLu {
+    background-size: contain !important;
+}
+
+/* Class for carousel card */
+.lnScmD {
+    box-shadow: none;
+    border: none;
+}
+
+/* Play button */
+.sc-jhAzac {
+    display: none;
+}
+
+/* Genre chips */
+.genre-chips {
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: default;
+}
+
+.details-container {
+    padding-top: 20px;
+}
+
+.movie-description-row {
+    margin-bottom: 20px;
+}
+
+.details-add-list-btn {
+    margin-top: 20px;
+}
+
+.movie-details-img {
+    position: relative;
+    text-align: center;
+}
+
+.details-image {
+    max-height: 540px;
+    border-radius: 12px;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.attribute-title {
+    font-weight: bold;
+}
+
+.details-row {
+    margin-top: 30px;
+}

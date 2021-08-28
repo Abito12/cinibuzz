@@ -1,0 +1,30 @@
+.nav-link {
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.navbar-brand {
+    cursor: pointer;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.bg-light {
+    background-color: white !important;
+}
+
+.brand-name {
+    color: #6855d6 !important;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+    font-family: 'Baloo Bhai 2', cursive;
+    text-transform: capitalize;
+}
+
+.navbar {
+    padding-top: 0px;
+}

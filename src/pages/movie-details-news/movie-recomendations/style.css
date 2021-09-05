@@ -1,0 +1,15 @@
+.movie_recomendations_section {
+    padding-top: 60px;
+    flex-wrap: wrap;
+}
+
+.movie_recomendations_title {
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 25px;
+}
+
+.movie_recomendations_list {
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,19 @@
+.image_card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+    margin-right: 20px;
+}
+
+.image {
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.image_title {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    size: 20px;
+    margin-top: 16px;
+}

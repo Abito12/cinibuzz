@@ -6,7 +6,7 @@ import 'shards-ui/dist/css/shards.min.css';
 import {Header} from '../components';
 
 const Movies = React.lazy(() => import('../pages/movies'));
-const MovieDetails = React.lazy(() => import('../pages/movie-details'));
+const MovieDetails = React.lazy(() => import('../pages/movie-details-news'));
 
 const App = () => {
     return (

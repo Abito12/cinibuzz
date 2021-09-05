@@ -1,0 +1,51 @@
+.movie_overview_main_container {
+    padding-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 45px;
+}
+
+.movie_overview_section {
+    width: 70%
+}
+
+.movie_overview_label {
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 16px;
+}
+
+.movie_overview {
+    color: #888888;
+    font-weight: 400px;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+.movie_crew {
+    display: flex;
+}
+
+.movie_highlights_section {
+    display: flex;
+    flex-direction: column;
+}
+
+.movie_highlight {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    margin-right: 100px;
+}
+
+.movie_highlight_title {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.movie_highlight_value {
+    font-size: 16px;
+    font-weight: 400;
+}
+

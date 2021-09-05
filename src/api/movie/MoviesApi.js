@@ -32,7 +32,13 @@ class MoviesApi extends BaseApi {
             {movieId}
         );
 
-        return {...details, credits};
+        const {results: recommendations} = await this.getRequest(
+            MoviesURIs.getMovieRecommendations,
+            {api_key: this.API_KEY},
+            {movieId}
+        );
+
+        return {...details, credits, recommendations};
     }
 
     async searchMovies(query) {
